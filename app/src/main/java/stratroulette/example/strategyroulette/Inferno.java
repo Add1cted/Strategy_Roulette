@@ -1,4 +1,4 @@
-package com.example.strategyroulette;
+package stratroulette.example.strategyroulette;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.stratroulette.R;
 
 import org.w3c.dom.Text;
 

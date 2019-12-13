@@ -1,10 +1,22 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\App\\my_private_key.keystore')
+            storePassword 'DGILeagueCaster#8318'
+        }
+        release {
+            storeFile file('C:\\App\\my_private_key.keystore')
+            storePassword 'DGILeagueCaster#8318'
+            keyAlias = 'StratRoulette'
+            keyPassword 'DGILeagueCaster#8318'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.example.strategyroulette"
+        applicationId "com.stratroulette"
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 1

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/saduihgiadgiyadg"
     android:theme="@style/MainTheme"
-    tools:context=".MainActivity">
+    tools:context="stratroulette.example.strategyroulette.MainActivity">
 
     <ListView
         android:id="@+id/mapList"

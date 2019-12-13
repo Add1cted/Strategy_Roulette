@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundColor"
-    tools:context=".Dust2">
+    tools:context="stratroulette.example.strategyroulette.Dust2">
 
     <Button
         android:id="@+id/t_button2"

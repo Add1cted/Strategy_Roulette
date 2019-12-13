@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.strategyroulette">
+    package="com.stratroulette">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Vertigo" android:screenOrientation="portrait"></activity>
-        <activity android:name=".Dust2" android:screenOrientation="portrait"/>
-        <activity android:name=".Overpass" android:screenOrientation="portrait"/>
-        <activity android:name=".Nuke" android:screenOrientation="portrait"/>
-        <activity android:name=".Mirage" android:screenOrientation="portrait"/>
-        <activity android:name=".Train" android:screenOrientation="portrait"/>
-        <activity android:name=".Inferno" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+        <activity android:name="stratroulette.example.strategyroulette.Vertigo" android:screenOrientation="portrait"></activity>
+        <activity android:name="stratroulette.example.strategyroulette.Dust2" android:screenOrientation="portrait"/>
+        <activity android:name="stratroulette.example.strategyroulette.Overpass" android:screenOrientation="portrait"/>
+        <activity android:name="stratroulette.example.strategyroulette.Nuke" android:screenOrientation="portrait"/>
+        <activity android:name="stratroulette.example.strategyroulette.Mirage" android:screenOrientation="portrait"/>
+        <activity android:name="stratroulette.example.strategyroulette.Train" android:screenOrientation="portrait"/>
+        <activity android:name="stratroulette.example.strategyroulette.Inferno" android:screenOrientation="portrait"/>
+        <activity android:name="stratroulette.example.strategyroulette.MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

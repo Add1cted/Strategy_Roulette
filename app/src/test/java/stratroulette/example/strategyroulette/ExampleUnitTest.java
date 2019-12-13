@@ -1,4 +1,4 @@
-package com.example.strategyroulette;
+package stratroulette.example.strategyroulette;
 
 import org.junit.Test;
 
